@@ -1,6 +1,7 @@
 # S P A C E B O X
 
-A UI which allows for the creation and group-management of a music queue via Spotify.
+A UI which allows for the creation and group-management of a music queue via Spotify.  
+
 **This application was developed by many students of Origin Code Academy, and is reproduced here for the sake of providing context to my own contributions.**
 
 Origin Code Academy's jukebox.
