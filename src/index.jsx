@@ -9,11 +9,10 @@ import rootReducer from './rootReducer';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 /* eslint-disable no-underscore-dangle */
-const store = createStore(rootReducer, composeEnhancers(
-  applyMiddleware(
-    promiseMiddleware()
-  )
-));
+const store = createStore(
+	rootReducer,
+	composeEnhancers(applyMiddleware(promiseMiddleware()))
+);
 /* eslint-enable */
 
 render(
